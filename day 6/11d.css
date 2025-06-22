@@ -15,14 +15,14 @@ p{
 }
 
 .profile-image{
-    width: 100px;
+    width: 200px;
     height: 100px;
     object-fit: cover;
     margin-bottom: 12px;
 }
 
 .profile-name{
-    font-size: 10px;
+    font-size: 28px;
     font-weight: bold;
     margin-left: 8px;
     margin-bottom: 4px;
@@ -32,22 +32,21 @@ p{
     display: grid;
     grid-template-columns: 36px 1fr;
     align-items: center;
-   
+    margin-left: 8px;
+    margin-bottom: 12px;
 }
 
 .mutual-friend-picture {
-
     vertical-align: middle;
-    height: 100px;
-    width: 100px;
+    height: 28px;
+    width: 28px;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .mutual-friends{
     color: rgb(103, 1, 245);
-    margin-left: 8px;
-    margin-bottom: 12px;
+   
 }
 
 .add-friend-button{
